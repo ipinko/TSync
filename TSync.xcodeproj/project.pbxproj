@@ -35,12 +35,15 @@
 		91CDEDD013BEF87C0074712C /* jQueryInject.txt in Resources */ = {isa = PBXBuildFile; fileRef = 91CDEDAC13BEF87B0074712C /* jQueryInject.txt */; };
 		91CDEDD113BEF87C0074712C /* jQueryInjectLandscape.txt in Resources */ = {isa = PBXBuildFile; fileRef = 91CDEDAD13BEF87B0074712C /* jQueryInjectLandscape.txt */; };
 		91CDEDD213BEF87C0074712C /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CDEDAE13BEF87B0074712C /* libOAuth.a */; };
-		91CDEDE513BEF9C30074712C /* TSyncListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CDEDE313BEF9C30074712C /* TSyncListViewController.m */; };
 		91CDEDE613BEF9C30074712C /* TSyncListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91CDEDE413BEF9C30074712C /* TSyncListViewController.xib */; };
-		91CDEDEA13BEFC9F0074712C /* TSyncDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CDEDE813BEFC9E0074712C /* TSyncDetailViewController.m */; };
 		91CDEDEB13BEFC9F0074712C /* TSyncDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91CDEDE913BEFC9E0074712C /* TSyncDetailViewController.xib */; };
-		91CDEDF713BF090A0074712C /* TSyncSentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CDEDF513BF09090074712C /* TSyncSentViewController.m */; };
 		91CDEDF813BF090A0074712C /* TSyncSentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91CDEDF613BF090A0074712C /* TSyncSentViewController.xib */; };
+		91ED5DA613C390FE0077B01F /* TSyncDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ED5D9E13C390FD0077B01F /* TSyncDetailViewController.m */; };
+		91ED5DA713C390FE0077B01F /* TSyncDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91ED5D9F13C390FD0077B01F /* TSyncDetailViewController.xib */; };
+		91ED5DA813C390FE0077B01F /* TSyncListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ED5DA113C390FD0077B01F /* TSyncListViewController.m */; };
+		91ED5DA913C390FE0077B01F /* TSyncListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91ED5DA213C390FD0077B01F /* TSyncListViewController.xib */; };
+		91ED5DAA13C390FE0077B01F /* TSyncSentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ED5DA413C390FD0077B01F /* TSyncSentViewController.m */; };
+		91ED5DAB13C390FE0077B01F /* TSyncSentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91ED5DA513C390FD0077B01F /* TSyncSentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,15 +114,18 @@
 		91CDEDBC13BEF87B0074712C /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
 		91CDEDBD13BEF87B0074712C /* OAToken_KeychainExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken_KeychainExtensions.h; sourceTree = "<group>"; };
 		91CDEDBE13BEF87B0074712C /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
-		91CDEDE213BEF9C20074712C /* TSyncListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSyncListViewController.h; path = "/Users/ljwthurston/Documents/ipk/TSync-v0.2/TSync/TSyncListViewController.h"; sourceTree = "<absolute>"; };
-		91CDEDE313BEF9C30074712C /* TSyncListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSyncListViewController.m; path = "/Users/ljwthurston/Documents/ipk/TSync-v0.2/TSync/TSyncListViewController.m"; sourceTree = "<absolute>"; };
 		91CDEDE413BEF9C30074712C /* TSyncListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TSyncListViewController.xib; path = "/Users/ljwthurston/Documents/ipk/TSync-v0.2/TSync/TSyncListViewController.xib"; sourceTree = "<absolute>"; };
-		91CDEDE713BEFC9E0074712C /* TSyncDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSyncDetailViewController.h; path = "/Users/ljwthurston/Documents/ipk/TSync-v0.2/TSync/TSyncDetailViewController.h"; sourceTree = "<absolute>"; };
-		91CDEDE813BEFC9E0074712C /* TSyncDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSyncDetailViewController.m; path = "/Users/ljwthurston/Documents/ipk/TSync-v0.2/TSync/TSyncDetailViewController.m"; sourceTree = "<absolute>"; };
 		91CDEDE913BEFC9E0074712C /* TSyncDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TSyncDetailViewController.xib; path = "/Users/ljwthurston/Documents/ipk/TSync-v0.2/TSync/TSyncDetailViewController.xib"; sourceTree = "<absolute>"; };
-		91CDEDF413BF09090074712C /* TSyncSentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSyncSentViewController.h; path = "/Users/ljwthurston/Documents/ipk/TSync-v0.2/TSync/TSyncSentViewController.h"; sourceTree = "<absolute>"; };
-		91CDEDF513BF09090074712C /* TSyncSentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSyncSentViewController.m; path = "/Users/ljwthurston/Documents/ipk/TSync-v0.2/TSync/TSyncSentViewController.m"; sourceTree = "<absolute>"; };
 		91CDEDF613BF090A0074712C /* TSyncSentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TSyncSentViewController.xib; path = "/Users/ljwthurston/Documents/ipk/TSync-v0.2/TSync/TSyncSentViewController.xib"; sourceTree = "<absolute>"; };
+		91ED5D9D13C390FD0077B01F /* TSyncDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSyncDetailViewController.h; sourceTree = "<group>"; };
+		91ED5D9E13C390FD0077B01F /* TSyncDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSyncDetailViewController.m; sourceTree = "<group>"; };
+		91ED5D9F13C390FD0077B01F /* TSyncDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSyncDetailViewController.xib; sourceTree = "<group>"; };
+		91ED5DA013C390FD0077B01F /* TSyncListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSyncListViewController.h; sourceTree = "<group>"; };
+		91ED5DA113C390FD0077B01F /* TSyncListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSyncListViewController.m; sourceTree = "<group>"; };
+		91ED5DA213C390FD0077B01F /* TSyncListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSyncListViewController.xib; sourceTree = "<group>"; };
+		91ED5DA313C390FD0077B01F /* TSyncSentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSyncSentViewController.h; sourceTree = "<group>"; };
+		91ED5DA413C390FD0077B01F /* TSyncSentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSyncSentViewController.m; sourceTree = "<group>"; };
+		91ED5DA513C390FD0077B01F /* TSyncSentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSyncSentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,12 +177,15 @@
 		91C66AFC13BE04B300DD1D35 /* TSync */ = {
 			isa = PBXGroup;
 			children = (
-				91CDEDF413BF09090074712C /* TSyncSentViewController.h */,
-				91CDEDF513BF09090074712C /* TSyncSentViewController.m */,
-				91CDEDE713BEFC9E0074712C /* TSyncDetailViewController.h */,
-				91CDEDE813BEFC9E0074712C /* TSyncDetailViewController.m */,
-				91CDEDE213BEF9C20074712C /* TSyncListViewController.h */,
-				91CDEDE313BEF9C30074712C /* TSyncListViewController.m */,
+				91ED5D9D13C390FD0077B01F /* TSyncDetailViewController.h */,
+				91ED5D9E13C390FD0077B01F /* TSyncDetailViewController.m */,
+				91ED5D9F13C390FD0077B01F /* TSyncDetailViewController.xib */,
+				91ED5DA013C390FD0077B01F /* TSyncListViewController.h */,
+				91ED5DA113C390FD0077B01F /* TSyncListViewController.m */,
+				91ED5DA213C390FD0077B01F /* TSyncListViewController.xib */,
+				91ED5DA313C390FD0077B01F /* TSyncSentViewController.h */,
+				91ED5DA413C390FD0077B01F /* TSyncSentViewController.m */,
+				91ED5DA513C390FD0077B01F /* TSyncSentViewController.xib */,
 				91C66B0513BE04B300DD1D35 /* TSyncAppDelegate.h */,
 				91C66B0613BE04B300DD1D35 /* TSyncAppDelegate.m */,
 			);
@@ -352,6 +361,9 @@
 				91CDEDE613BEF9C30074712C /* TSyncListViewController.xib in Resources */,
 				91CDEDEB13BEFC9F0074712C /* TSyncDetailViewController.xib in Resources */,
 				91CDEDF813BF090A0074712C /* TSyncSentViewController.xib in Resources */,
+				91ED5DA713C390FE0077B01F /* TSyncDetailViewController.xib in Resources */,
+				91ED5DA913C390FE0077B01F /* TSyncListViewController.xib in Resources */,
+				91ED5DAB13C390FE0077B01F /* TSyncSentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,9 +392,9 @@
 				91CDEDCD13BEF87C0074712C /* MGTwitterXMLParser.m in Sources */,
 				91CDEDCE13BEF87C0074712C /* NSData+Base64.m in Sources */,
 				91CDEDCF13BEF87C0074712C /* NSString+UUID.m in Sources */,
-				91CDEDE513BEF9C30074712C /* TSyncListViewController.m in Sources */,
-				91CDEDEA13BEFC9F0074712C /* TSyncDetailViewController.m in Sources */,
-				91CDEDF713BF090A0074712C /* TSyncSentViewController.m in Sources */,
+				91ED5DA613C390FE0077B01F /* TSyncDetailViewController.m in Sources */,
+				91ED5DA813C390FE0077B01F /* TSyncListViewController.m in Sources */,
+				91ED5DAA13C390FE0077B01F /* TSyncSentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
